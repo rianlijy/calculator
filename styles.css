@@ -1,0 +1,46 @@
+html, body{
+    font-size: 50px;
+}
+
+.calcDisplay {
+    border: solid black;
+    padding: 75px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1305px;
+}
+
+.operators{
+    display: flex;
+    flex-wrap: wrap;
+    width: 585px;
+}
+
+.clear{
+    width: 460px;
+    text-align: center;
+}
+
+#gap{
+    border-color: white;
+}
+
+.numbers div{
+    border: solid black;
+    padding: 30px 195px;
+    margin: 6px;
+}
+
+.operators div{
+    border: solid black;
+    padding: 70px 122px;
+    margin: 5px;
+    width: 30px;
+}
