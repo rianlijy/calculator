@@ -4,7 +4,9 @@ html, body{
 
 .calcDisplay {
     border: solid black;
-    padding: 75px;
+    padding: 55px;
+    margin-bottom: 5px;
+    min-height: 58px;
 }
 
 .buttons{
