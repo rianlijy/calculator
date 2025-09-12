@@ -1,5 +1,6 @@
 html, body{
     font-size: 50px;
+    background-color: black;
 }
 
 .calcDisplay {
@@ -7,10 +8,12 @@ html, body{
     padding: 55px;
     margin-bottom: 5px;
     min-height: 58px;
+    background-color: #ffffcc;
 }
 
 .buttons{
     display: flex;
+    background-color: #d2b48c;
 }
 
 .numbers{
@@ -25,24 +28,25 @@ html, body{
     width: 585px;
 }
 
-.clear{
+#clear{
     width: 460px;
     text-align: center;
-}
-
-#gap{
-    border-color: white;
+    background-color: #ffa500;
 }
 
 .numbers div{
-    border: solid black;
+    border: solid #363636;
     padding: 30px 195px;
     margin: 6px;
+    background-color: black;
+    color: white;
 }
 
 .operators div{
-    border: solid black;
+    border: solid #363636;
     padding: 70px 122px;
     margin: 5px;
     width: 30px;
+    background-color: black;
+    color: white;
 }
